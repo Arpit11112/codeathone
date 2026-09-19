@@ -1,0 +1,18 @@
+id,name,mobile,address,state,gstin,email
+P001,Karan Iyer,9409798605,"498, Gandhi Nagar, Tamil Nadu",Tamil Nadu,33ABCDE4514F1Z4,karan.iyer@example.com
+P002,Manish Gupta,9272943918,"91, Main Bazaar, Maharashtra",Maharashtra,,manish.gupta@example.com
+P003,Divya Desai,9323625746,"65, Main Bazaar, West Bengal",West Bengal,16ABCDE7617F1Z7,divya.desai@example.com
+P004,Karan Shah,9346013028,"434, MG Road, Tamil Nadu",Tamil Nadu,18ABCDE7465F1Z7,karan.shah@example.com
+P005,Kavita Patel,9201683197,"354, MG Road, West Bengal",West Bengal,,
+P006,Divya Patel,9294177567,"285, MG Road, Karnataka",Karnataka,10ABCDE1566F1Z7,divya.patel@example.com
+P007,Rohit Nair,9635208448,"865, Civil Lines, Tamil Nadu",Tamil Nadu,37ABCDE8784F1Z3,
+P008,Neha Chauhan,9673581540,"969, Gandhi Nagar, Gujarat",Gujarat,05ABCDE1524F1Z6,neha.chauhan@example.com
+P009,Sneha Nair,9892654078,"956, Civil Lines, West Bengal",West Bengal,09ABCDE3929F1Z4,sneha.nair@example.com
+P010,Vikram Shah,9163971908,"562, Civil Lines, Rajasthan",Rajasthan,22ABCDE7144F1Z2,vikram.shah@example.com
+P011,Divya Gupta,9829139852,"845, Station Road, Gujarat",Gujarat,,
+P012,Vikram Joshi,9220465931,"537, Station Road, West Bengal",West Bengal,,
+P013,Sanjay Nair,9779727695,"405, Civil Lines, Rajasthan",Rajasthan,,sanjay.nair@example.com
+P014,Priya Sharma,9736859674,"549, Station Road, Delhi",Delhi,31ABCDE4207F1Z9,
+P015,Vikram Joshi,9899966973,"226, Civil Lines, Tamil Nadu",Tamil Nadu,26ABCDE7566F1Z1,
+P016,Vikram Nair,9230377916,"379, MG Road, Maharashtra",Maharashtra,,vikram.nair@example.com
+P017,Karan Nair,9592192587,"559, Civil Lines, Tamil Nadu",Tamil Nadu,36ABCDE4423F1Z3,

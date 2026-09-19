@@ -1,0 +1,21 @@
+id,name,hsnCode,unitPrice,gstPercent
+I001,Wireless Mouse,8471,499.00,18
+I002,USB-C Cable 1m,8544,199.00,18
+I003,Notebook A5 Ruled,4820,60.00,12
+I004,Ballpoint Pen (Pack of 10),9608,120.00,12
+I005,LED Bulb 9W,8539,90.00,12
+I006,Cotton T-Shirt,6109,349.00,5
+I007,Basmati Rice 5kg,1006,550.00,5
+I008,Steel Water Bottle 1L,7323,299.00,18
+I009,Bluetooth Speaker,8518,1499.00,18
+I010,Office Chair,9401,4999.00,18
+I011,Printer Paper A4 (Ream),4802,280.00,12
+I012,Face Mask (Box of 50),6307,199.00,5
+I013,Hand Sanitizer 500ml,3808,150.00,18
+I014,Laptop Bag,4202,899.00,18
+I015,Desk Lamp,9405,650.00,18
+I016,Whiteboard Marker (Pack of 4),9608,80.00,12
+I017,External Hard Disk 1TB,8471,3499.00,18
+I018,Ceramic Coffee Mug,6912,149.00,12
+I019,Wireless Keyboard,8471,899.00,18
+I020,File Folder (Pack of 5),4820,150.00,12
