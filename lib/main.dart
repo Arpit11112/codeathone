@@ -4,6 +4,7 @@ import 'providers/app_providers.dart';
 import 'theme/qt_theme.dart';
 import 'screens/main_layout.dart';
 import 'screens/login_screen.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,7 +21,6 @@ class GstBillingApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final isDarkTheme = ref.watch(qtThemeModeProvider);
-    final auth = ref.watch(authProvider);
 
     return MaterialApp(
       title: 'Qt GST Billing Workbench',
@@ -28,7 +28,7 @@ class GstBillingApp extends ConsumerWidget {
       theme: QtTheme.getLightTheme(),
       darkTheme: QtTheme.getDarkTheme(),
       themeMode: isDarkTheme ? ThemeMode.dark : ThemeMode.light,
-      home: auth.isAuthenticated ? const MainLayout() : const LoginScreen(),
+      home: const SplashScreen(),
     );
   }
 }

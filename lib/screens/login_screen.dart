@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/app_providers.dart';
 import '../theme/qt_theme.dart';
 import '../widgets/qt_widgets.dart';
+import 'main_layout.dart';
 
 class LoginScreen extends ConsumerStatefulWidget {
   const LoginScreen({super.key});
@@ -31,6 +32,9 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
       // Check credentials (Developer/Admin default credentials)
       if ((username == 'admin@apexdigital.in' || username == 'admin') && password == 'admin123') {
         ref.read(authProvider.notifier).login(company: company, username: username);
+        Navigator.of(context).pushReplacement(
+          MaterialPageRoute(builder: (context) => const MainLayout()),
+        );
       } else {
         setState(() {
           _errorMessage = 'Invalid username or password. Please use developer/admin credentials.';

@@ -16,6 +16,8 @@ void main() {
         child: GstBillingApp(),
       ),
     );
+    await tester.pump(const Duration(seconds: 3));
+    await tester.pumpAndSettle();
 
     // Verify Sign In screen renders with auto-filled credentials
     expect(find.textContaining('STAFF / ADMIN SIGN IN'), findsOneWidget);
